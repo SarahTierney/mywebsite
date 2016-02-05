@@ -1,0 +1,247 @@
+html {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  color: #a1d1cf;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #a1d1cf;
+  color: #fff;
+  border-radius: 0.25em;
+}
+
+.login {
+  color: #ffffff;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background-color: #000000;
+  border-radius: 0.25em;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 5px #000000;
+
+}
+
+.efefef {
+  background-color: #efefef;
+}
+
+.e2e2e2 {
+  background-color: #e2e2e2;
+  color: #000;
+}
+
+.cccccc {
+  background-color: #cccccc;
+}
+
+.bg-231f20 {
+  background-color: #231f20;
+}
+
+.dark {
+  background-color: #231f20;
+}
+
+
+.darkdark {
+  background-color: #231f20;
+background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 81%,rgba(0,0,0,0.35) 100%);
+}
+
+
+.bucket {
+  color: #ffffff;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.signup {
+  background-color: #ffffff;
+}
+
+.tiny {
+  color: #cccccc;
+}
+
+.black {
+  color: #000000;
+}
+
+.a1d1cf {
+  background-color: #a1d1cf;
+  color: #000;
+}
+
+.a1d1cf-transparent {
+  background-color: #a1d1cf;
+  color: #000;
+background: linear-gradient(to bottom, rgba(161,209,207,0.5) 0%,rgba(161,209,207,0.5) 100%);
+}
+
+
+.banner {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-color: #000;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+
+.text-left {
+  text-align: left;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+input + label {
+  display: inline;
+}
+
+input {
+border-radius: 0px;
+background-color: white;
+font-size: 1rem;
+border: 2px solid #cccccc;
+padding: 0.5em;
+width: 100%;
+}
+
+select {
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 10px;
+  border: 2px solid #cccccc;
+  border-radius: 5px;
+}
+
+button {
+  font-size: 1rem;
+  color: white;
+  padding: 0.5em 1em 0.5em 1em;
+  border: none;
+  background-color: black;
+}
+
+.signup-here {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.logo {
+  max-width: 40px;
+  vertical-align: middle;
+  margin: 0 0.5em 0;
+}
+
+.logo-big {
+  padding: 0;
+  max-width: 6em;
+  vertical-align: middle;
+  margin: 0 0.5em 0;
+}
+
+.studioroom {
+  max-width: 60px;
+}
+
+.logo-btn-large {
+  display: none;
+}
+.logo-btn-small {
+  display: inline-block;
+}
+
+.logo-btn-small {
+  margin: 0em;
+}
+
+.social:hover {
+  background-color: transparent;
+}
+
+@media only screen and (min-width: 24em) {
+ .nav-top li {
+  display: inline-block;
+  }
+  .nav-top {
+    text-align: right;
+  }
+
+.grid-signup {
+  margin: 0;
+}
+
+
+}
+
+
+@media only screen and (min-width: 35em) {
+h1 {
+  text-align: left;
+}
+
+.max-width {
+  max-width: 20rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+}
+
+@media only screen and (min-width: 38em) {
+  .logo {
+    text-align: left;
+  }
+
+.bucket {
+  text-align: center;
+}
+
+.max-width {
+  max-width: 20rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.studioroom {
+  max-width: 100px;
+}
+
+.logo-btn-large {
+  display: block;
+}
+.logo-btn-small {
+  display: none;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+.box-text {
+  min-height: 9em;
+}
+
+.main-height {
+  min-height: 37em;
+}
+
+.studioroom {
+  max-width: 140px;
+}
+}
